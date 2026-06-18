@@ -1,0 +1,72 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.nosetests
+nosetests.xml
+pylintrc
+.ipynb_checkpoints
+
+# Virtual Environments
+.env
+.venv
+venv/
+ENV/
+env/
+ActiveState.adhoc
+
+# Node / Frontend dependencies & builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+dist/
+
+# Local database or temporary files
+*.db
+*.sqlite3
+*.log
+mlflow.db
+mlruns/
